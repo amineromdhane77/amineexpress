@@ -4,7 +4,7 @@ const daterequire =(req,res,next) => {
 
     const hours= date.getHours();
 
-    if (hours >= 9 && hours <23 ) {
+    if (hours >= 9 && hours <17 ) {
         next();
 
     }
